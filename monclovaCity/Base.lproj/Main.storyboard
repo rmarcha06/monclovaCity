@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="monclovaCity" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,360 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mvaMain" translatesAutoresizingMaskIntoConstraints="NO" id="8Th-lL-xPc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gmk-Rn-IzW">
+                                <rect key="frame" x="6" y="7" width="298" height="235"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odM-mX-LCt">
+                                        <rect key="frame" x="0.0" y="0.0" width="298" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIERRA DE ACERO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGJ-O7-PLo">
+                                                <rect key="frame" x="77" y="0.0" width="145" height="21"/>
+                                                <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="bK3-iN-OId"/>
+                                                    <constraint firstAttribute="width" constant="145" id="iOg-AB-3VR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EN EL NORTE DE MEXICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIb-lH-jFH">
+                                                <rect key="frame" x="49" y="21" width="200" height="21"/>
+                                                <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="W5n-mT-Co0"/>
+                                                    <constraint firstAttribute="width" constant="200" id="kz2-4H-zdu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=regular" alignment="center"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8QE-1Q-EG2">
+                                        <rect key="frame" x="0.0" y="52" width="298" height="183"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MONCLOVA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rpa-Kh-0fv">
+                                                <rect key="frame" x="0.0" y="0.0" width="298" height="89"/>
+                                                <animations/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="6Tu-kC-OzK"/>
+                                                    <constraint firstAttribute="height" constant="57" id="pK1-jN-IeX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="55"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="6Tu-kC-OzK"/>
+                                                        <exclude reference="pK1-jN-IeX"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEXICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGH-o2-tSb">
+                                                <rect key="frame" x="0.0" y="94" width="275" height="89"/>
+                                                <animations/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="292" id="B2l-xG-KtN"/>
+                                                    <constraint firstAttribute="height" constant="71" id="GB4-KU-Vib"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="75"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="B2l-xG-KtN"/>
+                                                        <exclude reference="GB4-KU-Vib"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=regular" alignment="center"/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="odM-mX-LCt" firstAttribute="centerX" secondItem="gmk-Rn-IzW" secondAttribute="centerX" id="oun-Wn-ECi"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="oun-Wn-ECi"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" alignment="center" distribution="fill">
+                                    <mask key="constraints">
+                                        <exclude reference="oun-Wn-ECi"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hif-xM-Xlk">
+                                <rect key="frame" x="20" y="526" width="290" height="54"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="144-pR-8qN" customClass="ButtonRounded" customModule="monclovaCity" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="54"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="nna-P0-b6p"/>
+                                            <constraint firstAttribute="height" constant="54" id="rYd-sC-d2S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="About Monclova">
+                                            <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="HZq-Gr-PPC" kind="show" id="ok6-zT-pui"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSt-YP-gYc" customClass="ButtonRounded" customModule="monclovaCity" customModuleProvider="target">
+                                        <rect key="frame" x="150" y="0.0" width="140" height="54"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="02k-Gw-kCF"/>
+                                            <constraint firstAttribute="height" constant="54" id="lg0-bf-Peq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Photos">
+                                            <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="QCf-bs-CvP" kind="show" id="9U9-tE-RU1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="10" y="736" width="290" height="54"/>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5XK-jI-jGj"/>
+                            <constraint firstAttribute="trailing" secondItem="8Th-lL-xPc" secondAttribute="trailing" id="5wM-Qm-gFS"/>
+                            <constraint firstItem="8Th-lL-xPc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="81O-0s-JYp"/>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ajk-CS-Icw"/>
+                            <constraint firstItem="hif-xM-Xlk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ap9-p2-ic3"/>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="JwI-bL-5DA"/>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SuK-wA-9we"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Th-lL-xPc" secondAttribute="bottom" id="TAj-J5-jiJ"/>
+                            <constraint firstItem="8Th-lL-xPc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="feJ-bj-GUD"/>
+                            <constraint firstItem="hif-xM-Xlk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="j7y-tK-3oN"/>
+                            <constraint firstAttribute="trailing" secondItem="gmk-Rn-IzW" secondAttribute="trailing" constant="10" id="pCL-18-tMI"/>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="tn0-ZO-ONl"/>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="tqQ-fD-mNC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hif-xM-Xlk" secondAttribute="bottom" constant="10" id="xbr-LI-K1y">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="y8P-zL-N4f">
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5XK-jI-jGj"/>
+                                <exclude reference="Ajk-CS-Icw"/>
+                                <exclude reference="JwI-bL-5DA"/>
+                                <exclude reference="SuK-wA-9we"/>
+                                <exclude reference="pCL-18-tMI"/>
+                                <exclude reference="y8P-zL-N4f"/>
+                                <exclude reference="Ap9-p2-ic3"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="JwI-bL-5DA"/>
+                                <include reference="SuK-wA-9we"/>
+                                <include reference="pCL-18-tMI"/>
+                                <exclude reference="tn0-ZO-ONl"/>
+                                <exclude reference="tqQ-fD-mNC"/>
+                                <include reference="y8P-zL-N4f"/>
+                                <include reference="Ap9-p2-ic3"/>
+                                <exclude reference="j7y-tK-3oN"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="159" y="319"/>
+        </scene>
+        <!--AboutVC-->
+        <scene sceneID="tTU-xn-fy3">
+            <objects>
+                <viewController id="HZq-Gr-PPC" customClass="AboutVC" customModule="monclovaCity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KlS-Pf-d8s"/>
+                        <viewControllerLayoutGuide type="bottom" id="l8I-eG-6fY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mYx-bR-3bQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dOn-iF-OnZ">
+                                <rect key="frame" x="20" y="241" width="550" height="390"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAK-3r-CrS">
+                                        <rect key="frame" x="0.0" y="0.0" width="550" height="21"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Jk9-2j-Ssf"/>
+                                            <constraint firstAttribute="height" constant="21" id="RcT-aG-pJu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fir-uC-YoB">
+                                        <rect key="frame" x="0.0" y="31" width="550" height="359"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="obE-ng-UPL"/>
+                                            <constraint firstAttribute="width" constant="200" id="xbx-qS-ziK"/>
+                                        </constraints>
+                                        <string key="text">Monclova, es una ciudad ubicada en la Región Centro del estado de Coahuila, en el norte de México. Es el tercer municipio más poblado del estado con 216,206 habitantes (2010), así como cabecera de la Zona Metropolitana de Monclova-Frontera integrada también por los municipios de Frontera, Castaños y recientemente ingresado el municipio de San Buenaventura suman una población de 339,463 habitantes.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monclova" translatesAutoresizingMaskIntoConstraints="NO" id="Zse-gn-xA5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="9mx-MP-mDd"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAy-BY-1lL">
+                                <rect key="frame" x="20" y="20" width="71" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="Vfb-ad-bGj"/>
+                                    <constraint firstAttribute="height" constant="30" id="qpH-AU-h31"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="GO BACK">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ViS-a0-9Ln"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zse-gn-xA5" firstAttribute="leading" secondItem="mYx-bR-3bQ" secondAttribute="leading" id="5ko-QN-eOT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dOn-iF-OnZ" secondAttribute="trailing" constant="5" id="7Ke-SO-soH"/>
+                            <constraint firstItem="rAy-BY-1lL" firstAttribute="top" secondItem="KlS-Pf-d8s" secondAttribute="bottom" id="7YN-Lo-lK3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dOn-iF-OnZ" secondAttribute="trailing" constant="5" id="9fP-qe-6MB">
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="l8I-eG-6fY" firstAttribute="top" secondItem="dOn-iF-OnZ" secondAttribute="bottom" constant="5" id="ASR-7w-HAL">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="rAy-BY-1lL" firstAttribute="leading" secondItem="mYx-bR-3bQ" secondAttribute="leadingMargin" id="Tiu-IF-QJM"/>
+                            <constraint firstAttribute="trailing" secondItem="Zse-gn-xA5" secondAttribute="trailing" id="Vlj-Hr-dMX"/>
+                            <constraint firstItem="dOn-iF-OnZ" firstAttribute="top" secondItem="Zse-gn-xA5" secondAttribute="bottom" constant="41" id="WY2-4C-EUN"/>
+                            <constraint firstItem="dOn-iF-OnZ" firstAttribute="top" secondItem="Zse-gn-xA5" secondAttribute="bottom" constant="5" id="Xsz-Hf-Ab3">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="dOn-iF-OnZ" firstAttribute="leading" secondItem="mYx-bR-3bQ" secondAttribute="leadingMargin" constant="5" id="b1h-HC-d4w">
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="Zse-gn-xA5" firstAttribute="top" secondItem="mYx-bR-3bQ" secondAttribute="top" id="hGl-c6-SQe"/>
+                            <constraint firstItem="dOn-iF-OnZ" firstAttribute="leading" secondItem="mYx-bR-3bQ" secondAttribute="leadingMargin" id="pfO-XZ-Zw9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7Ke-SO-soH"/>
+                                <exclude reference="WY2-4C-EUN"/>
+                                <exclude reference="pfO-XZ-Zw9"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMO-ju-Tju" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831" y="-36"/>
+        </scene>
+        <!--PhotosVC-->
+        <scene sceneID="Q8C-0J-Vrk">
+            <objects>
+                <viewController id="QCf-bs-CvP" customClass="PhotosVC" customModule="monclovaCity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sij-od-7pw"/>
+                        <viewControllerLayoutGuide type="bottom" id="qfZ-C7-FGw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9W7-HU-OVG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WQy-e6-SXf">
+                                <rect key="frame" x="10" y="57" width="580" height="533"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GBP-Sx-Bcp">
+                                        <rect key="frame" x="0.0" y="0.0" width="580" height="242"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="parque-xochipilli" translatesAutoresizingMaskIntoConstraints="NO" id="4xl-k0-O8o">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="242"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="celebra-monclova-el-grito-de-i_3" translatesAutoresizingMaskIntoConstraints="NO" id="UDU-Ad-OWg">
+                                                <rect key="frame" x="300" y="0.0" width="280" height="242"/>
+                                                <animations/>
+                                            </imageView>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-Mx-0hc">
+                                        <rect key="frame" x="0.0" y="292" width="580" height="241"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monclova31" translatesAutoresizingMaskIntoConstraints="NO" id="z9J-jh-ije">
+                                                <rect key="frame" x="0.0" y="0.0" width="580" height="241"/>
+                                                <animations/>
+                                            </imageView>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WQy-e6-SXf" firstAttribute="leading" secondItem="9W7-HU-OVG" secondAttribute="leading" constant="10" id="5gI-Zj-5kc"/>
+                            <constraint firstAttribute="bottom" secondItem="WQy-e6-SXf" secondAttribute="bottom" constant="10" id="Adc-MQ-0GP"/>
+                            <constraint firstAttribute="trailing" secondItem="WQy-e6-SXf" secondAttribute="trailing" constant="10" id="cWF-ZS-5Q0"/>
+                            <constraint firstItem="WQy-e6-SXf" firstAttribute="top" secondItem="sij-od-7pw" secondAttribute="bottom" constant="37" id="vn4-Vf-e0K"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jYz-fN-xuU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831" y="657"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Monclova" width="720" height="478"/>
+        <image name="Monclova31" width="500" height="375"/>
+        <image name="celebra-monclova-el-grito-de-i_3" width="550" height="369"/>
+        <image name="mvaMain" width="2889" height="1048"/>
+        <image name="parque-xochipilli" width="900" height="675"/>
+    </resources>
 </document>
