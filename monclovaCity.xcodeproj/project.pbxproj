@@ -12,6 +12,9 @@
 		0AD802E91BC840D30025D4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD802E71BC840D30025D4CF /* Main.storyboard */; };
 		0AD802EB1BC840D30025D4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD802EA1BC840D30025D4CF /* Assets.xcassets */; };
 		0AD802EE1BC840D30025D4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD802EC1BC840D30025D4CF /* LaunchScreen.storyboard */; };
+		0AD802F61BC84AAC0025D4CF /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD802F51BC84AAC0025D4CF /* AboutVC.swift */; };
+		0AD802F81BC84AC50025D4CF /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD802F71BC84AC50025D4CF /* PhotosVC.swift */; };
+		0AD802FA1BC84F0F0025D4CF /* ButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD802F91BC84F0F0025D4CF /* ButtonRounded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0AD802EA1BC840D30025D4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD802ED1BC840D30025D4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD802EF1BC840D30025D4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD802F51BC84AAC0025D4CF /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		0AD802F71BC84AC50025D4CF /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
+		0AD802F91BC84F0F0025D4CF /* ButtonRounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRounded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				0AD802E31BC840D30025D4CF /* AppDelegate.swift */,
 				0AD802E51BC840D30025D4CF /* ViewController.swift */,
+				0AD802F51BC84AAC0025D4CF /* AboutVC.swift */,
+				0AD802F71BC84AC50025D4CF /* PhotosVC.swift */,
 				0AD802E71BC840D30025D4CF /* Main.storyboard */,
 				0AD802EA1BC840D30025D4CF /* Assets.xcassets */,
 				0AD802EC1BC840D30025D4CF /* LaunchScreen.storyboard */,
 				0AD802EF1BC840D30025D4CF /* Info.plist */,
+				0AD802F91BC84F0F0025D4CF /* ButtonRounded.swift */,
 			);
 			path = monclovaCity;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD802FA1BC84F0F0025D4CF /* ButtonRounded.swift in Sources */,
 				0AD802E61BC840D30025D4CF /* ViewController.swift in Sources */,
 				0AD802E41BC840D30025D4CF /* AppDelegate.swift in Sources */,
+				0AD802F61BC84AAC0025D4CF /* AboutVC.swift in Sources */,
+				0AD802F81BC84AC50025D4CF /* PhotosVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

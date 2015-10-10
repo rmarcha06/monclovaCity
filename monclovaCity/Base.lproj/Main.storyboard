@@ -22,14 +22,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gmk-Rn-IzW">
-                                <rect key="frame" x="6" y="7" width="298" height="235"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gmk-Rn-IzW">
+                                <rect key="frame" x="10" y="10" width="298" height="235"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odM-mX-LCt">
-                                        <rect key="frame" x="0.0" y="0.0" width="298" height="42"/>
+                                        <rect key="frame" x="49" y="0.0" width="200" height="42"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIERRA DE ACERO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGJ-O7-PLo">
-                                                <rect key="frame" x="77" y="0.0" width="145" height="21"/>
+                                                <rect key="frame" x="28" y="0.0" width="145" height="21"/>
                                                 <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="bK3-iN-OId"/>
@@ -40,7 +40,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EN EL NORTE DE MEXICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIb-lH-jFH">
-                                                <rect key="frame" x="49" y="21" width="200" height="21"/>
+                                                <rect key="frame" x="0.0" y="21" width="200" height="21"/>
                                                 <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="W5n-mT-Co0"/>
@@ -54,7 +54,7 @@
                                         <animations/>
                                         <variation key="heightClass=regular-widthClass=regular" alignment="center"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8QE-1Q-EG2">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8QE-1Q-EG2">
                                         <rect key="frame" x="0.0" y="52" width="298" height="183"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MONCLOVA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rpa-Kh-0fv">
@@ -75,8 +75,8 @@
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEXICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGH-o2-tSb">
-                                                <rect key="frame" x="0.0" y="94" width="275" height="89"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MEXICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGH-o2-tSb">
+                                                <rect key="frame" x="12" y="94" width="275" height="89"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -113,8 +113,8 @@
                                     </mask>
                                 </variation>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hif-xM-Xlk">
-                                <rect key="frame" x="20" y="526" width="290" height="54"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hif-xM-Xlk">
+                                <rect key="frame" x="10" y="536" width="290" height="54"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="144-pR-8qN" customClass="ButtonRounded" customModule="monclovaCity" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="54"/>
@@ -166,9 +166,11 @@
                             <constraint firstItem="gmk-Rn-IzW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="JwI-bL-5DA"/>
                             <constraint firstItem="gmk-Rn-IzW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SuK-wA-9we"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Th-lL-xPc" secondAttribute="bottom" id="TAj-J5-jiJ"/>
+                            <constraint firstItem="hif-xM-Xlk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yw2-Do-4p4"/>
                             <constraint firstItem="8Th-lL-xPc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="feJ-bj-GUD"/>
                             <constraint firstItem="hif-xM-Xlk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="j7y-tK-3oN"/>
                             <constraint firstAttribute="trailing" secondItem="gmk-Rn-IzW" secondAttribute="trailing" constant="10" id="pCL-18-tMI"/>
+                            <constraint firstItem="gmk-Rn-IzW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tBf-Bk-cNJ"/>
                             <constraint firstItem="gmk-Rn-IzW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="tn0-ZO-ONl"/>
                             <constraint firstItem="gmk-Rn-IzW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="tqQ-fD-mNC"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hif-xM-Xlk" secondAttribute="bottom" constant="10" id="xbr-LI-K1y">
@@ -185,8 +187,10 @@
                                 <exclude reference="JwI-bL-5DA"/>
                                 <exclude reference="SuK-wA-9we"/>
                                 <exclude reference="pCL-18-tMI"/>
+                                <exclude reference="tn0-ZO-ONl"/>
                                 <exclude reference="y8P-zL-N4f"/>
                                 <exclude reference="Ap9-p2-ic3"/>
+                                <exclude reference="j7y-tK-3oN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -340,11 +344,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-Mx-0hc">
                                         <rect key="frame" x="0.0" y="290" width="580" height="270"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Monclova31" translatesAutoresizingMaskIntoConstraints="NO" id="z9J-jh-ije">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monclova31" translatesAutoresizingMaskIntoConstraints="NO" id="z9J-jh-ije">
                                                 <rect key="frame" x="0.0" y="0.0" width="580" height="240"/>
                                                 <animations/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyJ-LA-KDk">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyJ-LA-KDk">
                                                 <rect key="frame" x="0.0" y="240" width="580" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -367,7 +371,7 @@
                             </stackView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WQy-e6-SXf" firstAttribute="leading" secondItem="9W7-HU-OVG" secondAttribute="leading" constant="10" id="5gI-Zj-5kc"/>
                             <constraint firstAttribute="bottom" secondItem="WQy-e6-SXf" secondAttribute="bottom" constant="10" id="Adc-MQ-0GP"/>
