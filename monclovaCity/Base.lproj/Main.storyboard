@@ -60,7 +60,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MONCLOVA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rpa-Kh-0fv">
                                                 <rect key="frame" x="0.0" y="0.0" width="298" height="89"/>
                                                 <animations/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="340" id="6Tu-kC-OzK"/>
                                                     <constraint firstAttribute="height" constant="57" id="pK1-jN-IeX"/>
@@ -78,7 +78,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEXICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGH-o2-tSb">
                                                 <rect key="frame" x="0.0" y="94" width="275" height="89"/>
                                                 <animations/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="292" id="B2l-xG-KtN"/>
                                                     <constraint firstAttribute="height" constant="71" id="GB4-KU-Vib"/>
@@ -126,7 +126,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="About Monclova">
-                                            <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="HZq-Gr-PPC" kind="show" id="ok6-zT-pui"/>
@@ -142,7 +142,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Photos">
-                                            <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="QCf-bs-CvP" kind="show" id="9U9-tE-RU1"/>
@@ -320,30 +320,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WQy-e6-SXf">
-                                <rect key="frame" x="10" y="57" width="580" height="533"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WQy-e6-SXf">
+                                <rect key="frame" x="10" y="57" width="580" height="560"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GBP-Sx-Bcp">
-                                        <rect key="frame" x="0.0" y="0.0" width="580" height="242"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GBP-Sx-Bcp">
+                                        <rect key="frame" x="0.0" y="0.0" width="580" height="270"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="parque-xochipilli" translatesAutoresizingMaskIntoConstraints="NO" id="4xl-k0-O8o">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="242"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parque-xochipilli" translatesAutoresizingMaskIntoConstraints="NO" id="4xl-k0-O8o">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="270"/>
                                                 <animations/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="celebra-monclova-el-grito-de-i_3" translatesAutoresizingMaskIntoConstraints="NO" id="UDU-Ad-OWg">
-                                                <rect key="frame" x="300" y="0.0" width="280" height="242"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="celebra-monclova-el-grito-de-i_3" translatesAutoresizingMaskIntoConstraints="NO" id="UDU-Ad-OWg">
+                                                <rect key="frame" x="300" y="0.0" width="280" height="270"/>
                                                 <animations/>
                                             </imageView>
                                         </subviews>
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-Mx-0hc">
-                                        <rect key="frame" x="0.0" y="292" width="580" height="241"/>
+                                        <rect key="frame" x="0.0" y="290" width="580" height="270"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monclova31" translatesAutoresizingMaskIntoConstraints="NO" id="z9J-jh-ije">
-                                                <rect key="frame" x="0.0" y="0.0" width="580" height="241"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Monclova31" translatesAutoresizingMaskIntoConstraints="NO" id="z9J-jh-ije">
+                                                <rect key="frame" x="0.0" y="0.0" width="580" height="240"/>
                                                 <animations/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyJ-LA-KDk">
+                                                <rect key="frame" x="0.0" y="240" width="580" height="30"/>
+                                                <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="71" id="Wfs-2I-1z8"/>
+                                                    <constraint firstAttribute="height" constant="30" id="g6a-ND-89R"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                <state key="normal" title="GO BACK">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="JzL-qu-PdE"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <animations/>
                                     </stackView>
@@ -356,9 +371,21 @@
                         <constraints>
                             <constraint firstItem="WQy-e6-SXf" firstAttribute="leading" secondItem="9W7-HU-OVG" secondAttribute="leading" constant="10" id="5gI-Zj-5kc"/>
                             <constraint firstAttribute="bottom" secondItem="WQy-e6-SXf" secondAttribute="bottom" constant="10" id="Adc-MQ-0GP"/>
+                            <constraint firstItem="WQy-e6-SXf" firstAttribute="top" secondItem="sij-od-7pw" secondAttribute="bottom" constant="10" id="Kv0-EQ-vh2"/>
+                            <constraint firstAttribute="bottom" secondItem="WQy-e6-SXf" secondAttribute="bottom" constant="10" id="LVe-pu-bUZ"/>
                             <constraint firstAttribute="trailing" secondItem="WQy-e6-SXf" secondAttribute="trailing" constant="10" id="cWF-ZS-5Q0"/>
+                            <constraint firstAttribute="trailing" secondItem="WQy-e6-SXf" secondAttribute="trailing" constant="10" id="m6U-AW-qrb"/>
+                            <constraint firstItem="WQy-e6-SXf" firstAttribute="leading" secondItem="9W7-HU-OVG" secondAttribute="leading" constant="10" id="ojv-Ut-3Ep"/>
                             <constraint firstItem="WQy-e6-SXf" firstAttribute="top" secondItem="sij-od-7pw" secondAttribute="bottom" constant="37" id="vn4-Vf-e0K"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5gI-Zj-5kc"/>
+                                <exclude reference="Adc-MQ-0GP"/>
+                                <exclude reference="cWF-ZS-5Q0"/>
+                                <exclude reference="vn4-Vf-e0K"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jYz-fN-xuU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -373,4 +400,7 @@
         <image name="mvaMain" width="2889" height="1048"/>
         <image name="parque-xochipilli" width="900" height="675"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="JzL-qu-PdE"/>
+    </inferredMetricsTieBreakers>
 </document>
